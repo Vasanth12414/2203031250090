@@ -1,0 +1,13 @@
+{
+  "name": "url-shortener-nodb",
+  "version": "1.0.0",
+  "description": "In-memory URL shortener",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nanoid": "^5.0.2"
+  }
+}
