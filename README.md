@@ -63,7 +63,15 @@ Response:
     "expiry": "2025-06-23T08:36:50.046Z"
 }
 
+Step 5 : 
+npx create-react-app url-shortener-frontend
+cd url-shortener-frontend
 
+Step 6: Install Axios
+npm install axios
+### Step 7: Create the React App
+Replace the contents of `src/App.js` with the following code:
+```javascript 
 
 
 
