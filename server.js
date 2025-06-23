@@ -1,8 +1,13 @@
 const express = require('express');
+const cors = require('cors');
 const { customAlphabet } = require('nanoid');
+
 
 const app = express();
 const PORT = 8000;
+
+app.use(cors());
+
 app.use(express.json());
 const urlStore = new Map();
 const generateShortCode = customAlphabet('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', 6);
